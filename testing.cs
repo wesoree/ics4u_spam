@@ -1,9 +1,3 @@
-using System;
+Random rnd = new Random();
+int dice = rnd.Next(1, 7);
 
-class Program
-{
-    public static void Main(string[] args)
-    {
-        //empty
-    }
-}
